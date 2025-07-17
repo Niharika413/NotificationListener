@@ -9,10 +9,10 @@ import java.util.Map;
 @Data
 public class CustomerEvent {
 
-    private Map<String, Object> allFields = new HashMap<>();
+    private Map<String, Object> customerNotification = new HashMap<>();
 
     @JsonAnySetter
     public void set(String key, Object value) {
-        allFields.put(key, value);
+        customerNotification.put(key, value);
     }
 }

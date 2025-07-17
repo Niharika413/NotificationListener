@@ -24,7 +24,7 @@ public class KafkaConsumerConfig {
         deserializer.addTrustedPackages("*");
 
         Map<String, Object> props = new HashMap<>();
-//        props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
+        //props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
         props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "10.99.34.198:9092");
         //props.put(ConsumerConfig.GROUP_ID_CONFIG, "benifit-notification-consumer");
         props.put(ConsumerConfig.GROUP_ID_CONFIG, "health-bene-group");
