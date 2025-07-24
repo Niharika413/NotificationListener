@@ -1,7 +1,7 @@
-package com.consumer.benefit.config;
+package com.cigna.benefit.config;
 
 
-import com.consumer.benefit.websocket.WebSocketEventSessionManager;
+import com.cigna.benefit.websocket.WebSocketEventSessionManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.socket.config.annotation.EnableWebSocket;

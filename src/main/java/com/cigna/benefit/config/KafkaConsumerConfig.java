@@ -1,6 +1,6 @@
-package com.consumer.benefit.config;
+package com.cigna.benefit.config;
 
-import com.consumer.benefit.model.CustomerEvent;
+import com.cigna.benefit.model.CustomerEvent;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.context.annotation.Bean;

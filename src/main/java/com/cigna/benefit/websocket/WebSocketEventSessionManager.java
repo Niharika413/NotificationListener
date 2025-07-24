@@ -1,4 +1,4 @@
-package com.consumer.benefit.websocket;
+package com.cigna.benefit.websocket;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package com.consumer.benefit.websocket;
+package com.cigna.benefit.websocket;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.socket.TextMessage;

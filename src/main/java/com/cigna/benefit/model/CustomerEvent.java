@@ -1,4 +1,4 @@
-package com.consumer.benefit.model;
+package com.cigna.benefit.model;
 
 import com.fasterxml.jackson.annotation.JsonAnySetter;
 import lombok.Data;
